@@ -796,7 +796,7 @@ void mdeath::detonate( monster &z )
                      z.name() );
         } else {
             //~ %s is the possessive form of the monster's name
-            add_msg( m_bad, _( "The %s's hands fly to its remaining pockets, opening them!" ),
+            add_msg( m_bad, _( "The %s's hands fly to its remaining pockets, opening them and arming its explosives!" ),
                      z.name() );
         }
     }
